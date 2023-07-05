@@ -3,7 +3,7 @@ import React, {useRef, useState} from 'react'
 import { useAppGlobalContext } from '@/context/AppContext'
 import emailjs from '@emailjs/browser';
 
-export default function page() {
+export default function Page() {
 
   const form = useRef(null)
 
