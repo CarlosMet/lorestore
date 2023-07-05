@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Camiseta Rayco",
+    "imgSrc": "https://almacenessi.vteximg.com.br/arquivos/ids/246418-600-650/uniformes-escolar-camisetanormalsuperior-116857-0005-blanco_1.jpg?v=637922350693570000",
+    "price": 45000,
+    "price_42": 50000,
+    "price_44": 60000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sudadera Rayco",
+    "imgSrc": "https://uniformesog.com/wp-content/uploads/2019/06/img_franciscano_sudadera-600x600.jpg",
+    "price": 50000,
+    "price_42": 55000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Chaqueta Rayco",
+    "imgSrc": "https://hmcolombia.vtexassets.com/arquivos/ids/2112272/Chaqueta-de-exteriores-ligera-Regular-Fit---Negro---H-M-CO.jpg?v=1771231101",
+    "price": 75000,
+    "price_42": 85000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Falda Rayco",
+    "imgSrc": "https://www.uniformesminime.com/sites/default/files/imagecache/product_full/products/bonbon/uniformes/uea014.jpg",
+    "price": 68000,
+    "price_42": 73000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      
+
+ 8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Blusa Rayco",
+    "imgSrc": "https://images.squarespace-cdn.com/content/v1/520dc4c1e4b0a5dd07f73169/1433451709981-GZURXYMAT3GXJM223JLF/uniformes-corp-blusa-blanca-clasica.png",
+    "price": 37000,
+    "price_42": 39000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Jean Rayco",
+    "imgSrc": "https://majuauniformes.com/wp-content/uploads/2017/03/Jean-Hombre-dotacion.png",
+    "price": 45000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Camiseta Yetex",
+    "imgSrc": "https://api.bridgemarkets.com/v1/image.php?size=1200&url=https://d1u9bbhcasux7c.cloudfront.net/uploads/2021/12/sueter_hombre_liso_1.jpg",
+    "price": 45000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sudadera Yetex",
+    "imgSrc": "https://antropologistica.com/wp-content/uploads/2020/07/pantalos-sudadera-jml.jpg",
+    "price": 45000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Chaqueta Yetex",
+    "imgSrc": "https://uniformesog.com/wp-content/uploads/2019/06/img_franciscano_chaqueta-600x600.jpg",
+    "price": 45000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Jean Yetex",
+    "imgSrc": "https://http2.mlstatic.com/D_NQ_NP_907413-MCO31043332321_062019-W.jpg",
+    "price": 45000,
+    "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+    "prices": [
+      45000,
+      50000,
+      60000
+    ],
+    "sizes": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      36,
+      38,
+      40,
+      42,
+      44
+    ]
+  }
+]
+
+

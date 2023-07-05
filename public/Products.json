@@ -1,0 +1,344 @@
+    [
+        {
+            "id": 1,
+            "title": "Camiseta M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/1jUvJcx.png?1",
+            "price": 49500,
+            "price_42": 50000,
+            "price_44": 60000,
+            "description": "Resistente, suave y delicada al contacto con la piel, color mate ideal para el uso frecuente. Composición: 93% burda licrada y 7% elastano",
+            "prices": [
+                49500,
+                51500,
+                54500,
+                59500,
+                69500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "MariaAuxiliadora",
+            "categoria": "Camisetas"
+        },
+        {
+            "id": 2,
+            "title": "Sudadera M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/7xdUVSj.png",
+            "price": 75500,
+            "price_42": 55000,
+            "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+            "prices": [
+                75500,
+                81500,
+                89500,
+                94500,
+                104500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "MariaAuxiliadora",
+            "categoria": "Pantalones"
+        },
+        {
+            "id": 3,
+            "title": "Chaqueta M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/lUF6ZcE.png",
+            "price": 89500,
+            "price_42": 85000,
+            "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+            "prices": [
+                89500,
+                94500,
+                99500,
+                109500,
+                119500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "MariaAuxiliadora",
+            "categoria": "Chaquetas"
+        },
+        {
+            "id": 20,
+            "title": "Uniforme completo M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/5A9HQJE.png",
+            "price": 205500,
+            "description": "",
+            "prices": [
+                205500,
+                216500,
+                233500,
+                253500,
+                283500
+            ],
+           
+
+ "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "MariaAuxiliadora",
+            "categoria": "UniformesCompletos"
+        },
+        {
+            "id": 11,
+            "title": "Tennis M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/GirYzu4.png",
+            "price": 80000,
+            "description": "Replicas triple a",
+            "prices": [
+                80000,
+                80000,
+                80000
+            ],
+            "sizes": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+            ],
+            "institucion": "MariaAuxiliadora",
+            "categoria": "Calzado"
+        },
+        {
+            "id": 12,
+            "title": "Uniforme completo M Auxiliadora",
+            "imgSrc": "https://i.imgur.com/5A9HQJE.png",
+            "price": 89500,
+            "price_42": 85000,
+            "description": "lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
+            "prices": [
+                170500,
+                185500,
+                204500,
+                234500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "MariaAuxiliad",
+            "categoria": "Unformes completo"
+        },
+        {
+            "id": 13,
+            "title": "Camiseta Adelaida",
+            "imgSrc": "https://i.imgur.com/GWj2xbj.png",
+            "price": 42500,
+            "price_42": 50000,
+            "price_44": 60000,
+            "description": "Resistente, suave y delicada al contacto con la piel, color mate ideal para el uso frecuente. Composición: 93% burda licrada y 7% elastano",
+            "prices": [
+                42500,
+                45500,
+                52500,
+                62500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "AdelaidaCorrea",
+            "categoria": "Camisetas"
+        },
+        {
+            "id": 14,
+            "title": "Chaqueta Adelaida",
+            "imgSrc": "https://i.imgur.com/9MuyqQ8.png",
+            "price": 89500,
+            "price_42": 50000,
+            "price_44": 60000,
+            "description": "Resistente, suave y delicada al contacto con la piel, color mate ideal para el uso frecuente. Composición: 93% burda licrada y 7% elastano",
+            "prices": [
+                89500,
+                94500,
+                99500,
+                109500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "AdelaidaCorrea",
+            "categoria": "Chaquetas"
+        },
+        {
+            "id": 15,
+            "title": "Sudadera Adelaida",
+            "imgSrc": "https://i.imgur.com/ff82yA7.png",
+            "price": 47500,
+            "price_42": 50000,
+            "price_44": 60000,
+            "description": "Resistente, suave y delicada al contacto con la piel, color mate ideal para el uso frecuente. Composición: 93% burda licrada y 7% elastano",
+            "prices": [
+                47500,
+                55500,
+                62500,
+                72500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "AdelaidaCorrea",
+            "categoria": "Pantalones"
+        },
+        {
+            "id": 16,
+            "title": "Uniforme Completo Adelaida",
+            "imgSrc": "https://i.imgur.com/KsMD2jM.png",
+            "price": 75500,
+            "price_42": 50000,
+            "price_44": 60000,
+            "description": "Incluye camiseta, sudadera y chaqueta",
+            "prices": [
+                170500,
+                185500,
+                204500,
+                234500
+            ],
+            "sizes": [
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "institucion": "AdelaidaCorrea",
+            "categoria": "Uniformes completos"
+        },
+        {
+            "id": 17,
+            "title": "Tennis Adelaida",
+            "imgSrc": "https://i.imgur.com/GirYzu4.png",
+            "price": 80000,
+            "description": "Replicas triple a",
+            "prices": [
+                80000,
+                80000,
+                80000
+            ],
+            "sizes": [
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                38,
+                39,
+                40,
+                41
+            ],
+            "institucion": "AdelaidaCorrea",
+            "categoria": "Calzado"
+        }
+    ]
+
+

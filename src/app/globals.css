@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.pad{
+  @apply px-3 lg:px-7 xl:px-16 2xl:px-24;
+}
+.title{
+  @apply font-black text-xl lg:text-2xl 2xl:text-3xl mt-6 xl:mt-16 2xl:mt-28 tracking-tighter;
+}
+.pad2{
+  @apply px-6 lg:px-20 xl:px-40 2xl:px-56;
+}
+.margen{
+  @apply mt-4 lg:mt-8 xl:mt-12;
+}
+
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;     
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-pagination-bullet{  
+  width: 24px !important;
+  height: 5px !important;  
+}
+.boton{
+  @apply py-1 px-4 lg:px-6 xl:py-2 2xl:px-8 bg-gradient-to-bl from-[#F57667] to-[#cd5c50] hover:brightness-110 rounded-md text-white font-bold tracking-tight shadow-sm shadow-black hover:shadow-lg;
+  
+  
+}
+
+label{
+  @apply text-lg font-bold tracking-tight
+}
+
+@media (min-width : 650px){
+  .slider-img{
+    aspect-ratio: 2/0.8;
+  }
+}
+
+form input{
+  padding: 2px 9px;
+}
+
+
