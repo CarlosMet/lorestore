@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {BsArrowUpRight} from 'react-icons/bs'
 
-export default function page() {
+export default function Page() {
 
   const form = useRef();
 

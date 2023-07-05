@@ -4,7 +4,7 @@ import productos from '@/utils/productos.js';
 import { useAppGlobalContext } from '@/context/AppContext';
 import Link from 'next/link';
 
-export default function page({params}) {
+export default function Page({params}) {
 
   const {addProduct, cartProducts, setCart} = useAppGlobalContext()  
   

@@ -7,7 +7,7 @@ import productos from '@/utils/productos'
 import {BsArrowLeft} from 'react-icons/bs'
 import Link from 'next/link'
 
-const page = () => {    
+const Page = () => {    
     const {cartProducts, addProduct, deleteProduct, setCart, setPrice} = useAppGlobalContext()    
     // const localProducts = window.localStorage.getItem("appState")   
     // const [productsToRender, setProductsToRender] = useState([])   // console.log(window.localStorage.getItem("appState"))
@@ -118,4 +118,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

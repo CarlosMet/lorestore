@@ -2,7 +2,7 @@ import React from 'react'
 import productos from '@/utils/productos'
 import Link from 'next/link'
 
-export default function page({params}) {
+export default function Page({params}) {
     const categorie = params.categorieName
     const productsToShow = productos.filter( (item) =>{
         return(

@@ -2,7 +2,7 @@ import React from 'react'
 import productos from '../../../utils/productos.js'
 import Link from 'next/link'
 
-const page = ({params}) => {
+const Page = ({params}) => {
     
     const products = productos.filter( (producto) => {
         return(
@@ -66,4 +66,4 @@ const page = ({params}) => {
   )
 }
 
-export default page
+export default Page

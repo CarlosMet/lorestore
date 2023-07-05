@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function page() {    
+export default function Page() {    
     const instituciones = [
       {
       nombre: "Maria Auxiliadora",
