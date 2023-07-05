@@ -11,10 +11,10 @@ export default function Page({params}) {
     } )
   return (
     <div className='w-full px-4 lg:w-10/12 lg:mx-auto 2xl:w-9/12'>
-      {productsToShow.map( (product) =>{
+      {productsToShow.map( (product, index) =>{
                     const trimmedTitle = product.title.replace(/\s/g, '')
                     return(
-                        <div className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
+                        <div key={index} className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
                             <div className='w-9/12 mx-auto lg:mx-0 lg:w-1/5 p-3'>
                                 <img className='w-full' src={product.imgSrc} alt="" />
                             </div>

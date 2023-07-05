@@ -35,9 +35,9 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      {sliderImages.map( (sliderView) =>{
+      {sliderImages.map( (sliderView, index) =>{
         return(
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <img className='w-full h-[64vh] slider-img' src={sliderView} alt="slider img" />
           </SwiperSlide>
         )
