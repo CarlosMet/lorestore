@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import productos from '@/utils/productos.js';
 import { useAppGlobalContext } from '@/context/AppContext';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Page({params}) {
 
@@ -103,12 +104,19 @@ export default function Page({params}) {
         {filteredProduct[0]
         ? <div className='w-full flex flex-col items-center'>
             <div className='w-1/2'>
-              <img src={filteredProduct[0].imgSrc} alt="" />
+              <Image 
+                src={filteredProduct[0].imgSrc}
+                layout='responsive'
+                width={1}
+                height={1}
+              />
+              {/* <img src={filteredProduct[0].imgSrc} alt="" /> */}
             </div>
             <div className='w-full flex'>
-              <div className='w-1/3'><img src={filteredProduct[0].imgSrc} className='w-full border border-gray-300 p-5' alt="" /></div>
-              <div className='w-1/3'><img src={filteredProduct[0].imgSrc} className='w-full border border-gray-300 p-5' alt="" /></div>
-              <div className='w-1/3'><img src={filteredProduct[0].imgSrc} className='w-full border border-gray-300 p-5' alt="" /></div>
+              <div className='w-1/3'><Image src={filteredProduct[0].imgSrc} width={1} height={1} layout='responsive' className='w-full border border-gray-300 p-5' alt="producto" /></div>
+              <div className='w-1/3'><Image src={filteredProduct[0].imgSrc} width={1} height={1} layout='responsive' className='w-full border border-gray-300 p-5' alt="producto" /></div>
+              <div className='w-1/3'><Image src={filteredProduct[0].imgSrc} width={1} height={1} layout='responsive' className='w-full border border-gray-300 p-5' alt="producto" /></div>
+              
             </div>
           </div>
         : <div className='w-full h-96 bg-gray-400'>

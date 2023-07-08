@@ -8,12 +8,16 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
 
+
+
+import Image from 'next/image';
+
 const Slider = () => {  
   const sliderImages = [
-    "https://i.imgur.com/aHiQV2C.jpg",
-    "https://img.freepik.com/vector-gratis/estudiantes-mascara_23-2148581674.jpg?w=826&t=st=1687824629~exp=1687825229~hmac=a5dabde2796ba7fa777974023d79de0f0a02cd62d8cbcc8b6b025be6c03e2780",
-    "https://img.freepik.com/foto-gratis/vista-frontal-jovenes-empresarios-posando_23-2148465744.jpg?w=1380&t=st=1687824744~exp=1687825344~hmac=9b08cd9f3b38927f86e60b16286b697691e0371dbb9ffac9368e4f2354201df9"
-  ];
+    "/slider1.jpg",
+    "/slider2.avif",
+    "/slider3.avif" 
+  ]
     
   return (
     <div className='w-full h-[64vh]'>
@@ -38,7 +42,13 @@ const Slider = () => {
       {sliderImages.map( (sliderView, index) =>{
         return(
           <SwiperSlide key={index}>
-            <img className='w-full h-[64vh] slider-img' src={sliderView} alt="slider img" />
+            <div style={{ width: '100%', height: '64vh' }}>
+              <Image
+                src={sliderView}
+                fill
+              />
+            </div>
+            {/* <img className='w-full h-[64vh] slider-img' src={sliderView} alt="slider img" /> */}
           </SwiperSlide>
         )
       } )}

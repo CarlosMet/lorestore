@@ -57,7 +57,7 @@ const productos = [
         prices: [205500, 216500, 233500, 253500, 283500],
         sizes: [6,8,10,12,14,16, "XS", "S", "M", "L", "XL", "XXL"],
         institucion: "MariaAuxiliadora",
-        categoria: "UniformesCompletos"
+        categoria: "Uniformes completos"
     },
     {
         id: 4,
@@ -182,23 +182,7 @@ const productos = [
         prices:[80000],
         institucion: "MariaAuxiliadora",
         categoria: "Calzado"
-    },
-    {
-        id: 12,
-        title: "Uniforme completo M Auxiliadora",
-        imgSrc: "https://i.imgur.com/5A9HQJE.png",
-        price:89500,
-        price_42:85000,
-        description:"lorem ipsum bla bla bla iv vour let no se que lorem ipsum dolor",
-        prices : [
-            170500, 185500, 204500, 234500
-        ],
-        sizes : [
-            6,8,10,12,14,16, "XS", "S", "M", "L", "XL", "XXL"
-        ],
-        institucion: "MariaAuxiliad",
-        categoria: "Unformes completo"
-    },
+    },    
     {
         id: 13,
         title: "Camiseta Adelaida",
@@ -254,7 +238,7 @@ const productos = [
         id: 16,
         title: "Uniforme Completo Adelaida",
         imgSrc: "https://i.imgur.com/KsMD2jM.png",
-        price:75500,
+        price:170500,
         price_42:50000,
         price_44:60000,
         description:"Incluye camiseta, sudadera y chaqueta",

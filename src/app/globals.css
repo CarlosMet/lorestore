@@ -51,4 +51,9 @@ form input{
   padding: 2px 9px;
 }
 
+.inst-img{
+  width: 216px !important;
+  height: 216px !important;
+}
+
 

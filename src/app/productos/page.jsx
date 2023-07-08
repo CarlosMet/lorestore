@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Page() {    
     const instituciones = [
@@ -23,9 +24,19 @@ export default function Page() {
         instituciones.map( (institucion, index) => {
             const trimmedSchool = institucion.nombre.replace(/\s/g, '')
             return(
-                <div key={index} className="w-7/12 lg:w-3/12 rounded-lg hover:shadow-2xl overflow-hidden shadow-lg">
+                <div key={index} className="w-9/12 lg:w-3/12 rounded-lg hover:shadow-2xl overflow-hidden shadow-lg grid place-items-center">
                     <Link href={`/productos/${trimmedSchool}`}>
-                        <img src={institucion.src} className='w-full h-48' alt="" />
+                        
+                          <Image 
+                            src={institucion.src}                            
+                            width={216}
+                            height={20}
+                            alt='institucion'                            
+                            objectFit='contain'
+                            className='inst-img'
+                          />
+                        
+                        
                         <p className='text-center mt-2'>{institucion.nombre}</p>
                     </Link>      
                 </div>

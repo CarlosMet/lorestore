@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 const Domicilios = () => {
   return (
@@ -12,7 +13,9 @@ const Domicilios = () => {
             <button className='boton'>Hacer pedido!</button>
         </Link>
         <div className="absolute bottom-0 left-4 lg:left-8 w-full z-0">
-            <img src="repartidor2-removebg-preview.png" className='w-[20%]' />
+            <div className='w-[20%]'>
+              <Image src="/repartidor2-removebg-preview.png" className='' alt='domicilios' layout='responsive' width={1} height={1} />
+            </div>
         </div>
       </div>
     </div>

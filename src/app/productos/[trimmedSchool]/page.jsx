@@ -1,6 +1,7 @@
 import React from 'react'
 import productos from '../../../utils/productos.js'
 import Link from 'next/link'
+import Image from 'next/image.js'
 
 const Page = ({params}) => {
     
@@ -29,7 +30,15 @@ const Page = ({params}) => {
                     </ul>
                 </div>
                 <h3 className='font-bold my-8'>En construcción</h3>
-                <img src="https://img.freepik.com/vector-gratis/ilustracion-concepto-construccion_114360-1718.jpg?w=1380&t=st=1687849637~exp=1687850237~hmac=17f6f73c267171e4e84baa7f4259894da6ccd5582f12d58d68c0b81d7504b262" className='w-full' />
+                <Image 
+                    src={'https://img.freepik.com/vector-gratis/ilustracion-concepto-construccion_114360-1718.jpg?w=1380&t=st=1687849637~exp=1687850237~hmac=17f6f73c267171e4e84baa7f4259894da6ccd5582f12d58d68c0b81d7504b262'}
+                    layout='responsive'
+                    width={1}
+                    height={1}
+                    alt='construccion'               
+                
+                />
+                {/* <img src="https://img.freepik.com/vector-gratis/ilustracion-concepto-construccion_114360-1718.jpg?w=1380&t=st=1687849637~exp=1687850237~hmac=17f6f73c267171e4e84baa7f4259894da6ccd5582f12d58d68c0b81d7504b262" className='w-full' /> */}
 
             </div>
 
@@ -42,7 +51,14 @@ const Page = ({params}) => {
                     return(
                         <div className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
                             <div className='w-9/12 mx-auto lg:mx-0 lg:w-1/5 p-3'>
-                                <img className='w-full p-4' src={product.imgSrc} alt="" />
+                                <Image 
+                                    src={product.imgSrc}
+                                    layout='responsive'
+                                    width={1}
+                                    height={1}
+                                    alt='product-img'
+                                />
+                                {/* <img className='w-full p-4' src={product.imgSrc} alt="" /> */}
                             </div>
                             <div className='lg:w-3/5 px-3 lg:px-0'>
                                 <h3 className='font-extrabold text-lg mb-4 lg:mb-7'>{product.title}</h3>

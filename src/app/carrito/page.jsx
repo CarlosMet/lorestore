@@ -6,6 +6,7 @@ import { useState } from 'react'
 import productos from '@/utils/productos'
 import {BsArrowLeft} from 'react-icons/bs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Page = () => {    
     const {cartProducts, addProduct, deleteProduct, setCart, setPrice} = useAppGlobalContext()    
@@ -20,8 +21,7 @@ const Page = () => {
           return acumulador + subTotal
         }, 0 )
         setTotalPrice(calculatedPrice)
-      }
-      console.log(totalPrice, "from carrito")
+      }      
       
     }, [cartProducts, totalPrice])
 
@@ -41,7 +41,15 @@ const Page = () => {
                     return(
                         <div key={product.id} className='flex items-center justify-between p-2 lg:py-4 lg:px-6 bg-[#E5E9EA] w-10/12 lg:w-9/12 xl:w-8/12 2xl:w-7/12 mx-auto mt-3 lg:mt-4 xl:mt-6 rounded-lg relative'>                    
                             <div className='w-2/12 rounded-full overflow-hidden bg-white'>
-                              <img src={product.imgSrc} alt="" className='w-full' />
+                              
+                                <Image 
+                                  src={product.imgSrc}
+                                  layout='responsive'
+                                  width={80}
+                                  height={80}
+                                  alt='product-img'
+                                />
+                              
                             </div>
                             <div className='w-4/12'>
                               <p className='tracking-tighter font-bold'>{product.title}</p>
@@ -76,10 +84,26 @@ const Page = () => {
               <div className='w-full mt-7 lg:mt-0 lg:w-4/12 border-l-2 px-3 lg:px-6'>
                   <h3 className='title text-[#F57667] text-center lg:text-left'>Detalles de pago</h3>
                   <div className='w-1/2 mt-4 lg:mt-8 mx-auto'>
-                    <img src="https://www.inttercom.net.co/gallery_gen/ca0eb6faeb74ae423bb06a1593fc9512_400x120.png" className='w-full' alt="" />
+                    <div className='w-full'>
+                      <Image 
+                        src={'https://i.imgur.com/F963uTC.png'}
+                        layout='responsive'
+                        width={1}
+                        height={1}
+                        alt='pago
+                        '
+                      />
+                    </div>
                   </div>
                   <div className='bg-white w-[40%] lg:w-[32%] xl:w-[38%] mt-4 lg:mt-12 mx-auto'>
-                    <img className='w-full' src="https://i.imgur.com/KQRFNxT.jpg" alt="" />
+                    <div className='w-full'>
+                      <Image 
+                        src={'https://i.imgur.com/KQRFNxT.jpg'}
+                        width={100}
+                        height={100}
+                        alt='qr'
+                      />
+                    </div>
                   </div>
                   <div className='mt-4 lg:mt-6 text-center'>
                     <p className='text-lg font-semibold'>Bancos: Bancolombia y Nequi</p>
@@ -106,7 +130,15 @@ const Page = () => {
         
         ) 
         : <div className='grid place-items-center w-full'>
-            <img className='w-3/12 2xl:w-4/12' src="https://assets.materialup.com/uploads/16e7d0ed-140b-4f86-9b7e-d9d1c04edb2b/preview.png" alt="" />
+            <div className='w-3/12 2xl:w-4/12'>
+              <Image 
+                src={'https://i.imgur.com/KIzRmwy.png'}
+                layout='responsive'
+                width={1}
+                height={1}
+                alt='carrito-vacio'
+              />
+            </div>
             <h2 className='title mb-4'>El carrito está vacio</h2>
             <p>Parece que aún no has añadido ningún producto al carrito</p>
             <Link href={'/productos'}>

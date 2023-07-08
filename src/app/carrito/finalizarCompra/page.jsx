@@ -2,6 +2,7 @@
 import React, {useRef, useState} from 'react'
 import { useAppGlobalContext } from '@/context/AppContext'
 import emailjs from '@emailjs/browser';
+import Image from 'next/image';
 
 export default function Page() {
 
@@ -163,7 +164,19 @@ export default function Page() {
                 <div>
                   <p className='font-black text-xl lg:text-2xl 2xl:text-3xl tracking-tighter mt-2'>Transferencia</p>
                   <p className='text-sm font-light my-2 lg:my-4 xl:my-6'>Realiza el pago por transferencia Bancolombia o Nequi usando el código qr de la imagen y relaciona el número de comprobante de pago en caso de transferencia bancolombia o referencia de pago en caso de Nequi en la casilla correspondiente.</p>                  
-                  <img className='w-[60%] mx-auto' src="https://i.imgur.com/KQRFNxT.jpg" alt="" />
+                  
+                  <div className='w-[60%] mx-auto'>
+
+                    <Image 
+                      src={'https://i.imgur.com/KQRFNxT.jpg'}
+                      layout='responsive'
+                      width={0}
+                      height={0}
+                      alt='bancolombia'
+                    />
+
+                  </div>
+                  
                     <div>
                       <label htmlFor="ref">Referencia de pago</label>
                       <input type="text" id='ref' onChange={refChangeHandler} className='border border-gray-400 my-2 w-full rounded-sm' />

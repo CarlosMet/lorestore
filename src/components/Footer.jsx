@@ -7,7 +7,7 @@ import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter} from 'react-ico
 const Footer = () => {
   return (
     <>
-    <div className='bg-black text-gray-300 flex flex-col lg:flex-row pad pb-10 mt-4 lg:mt-8 xl:mt-16 2xl:mt-32'>
+    <div className='bg-black text-gray-300 flex flex-col lg:flex-row pad pb-10 mt-4 lg:mt-24 xl:mt-32 2xl:mt-48'>
       
         <div className='w-1/2'>
             <h2 className='title text-white'>LORE <span className='text-[#F57667]'>STORE.</span></h2>

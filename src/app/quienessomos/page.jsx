@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -14,7 +15,11 @@ export default function Page() {
 En Lorestore, entendemos la importancia de los uniformes escolares como una parte esencial de la identidad y el espíritu de equipo en las instituciones educativas. Nos enorgullece proporcionar una amplia variedad de uniformes escolares de alta calidad para estudiantes de todas las edades. Ya sea que necesites uniformes para preescolar, primaria o secundaria, tenemos opciones que se adaptan a todos los estilos y tallas. Nuestra extensa selección incluye camisas, pantalones, faldas, suéteres y mucho más, todo confeccionado con materiales duraderos y cómodos para garantizar la satisfacción de nuestros clientes. </p>
         </div>
         <div className='w-full lg:w-1/2 bg-[#F57667] relative'>            
-                <img className='w-9/12 mx-auto lg:w-10/12 2xl:w-7/12 lg:absolute -top-4 left-0 lg:-left-6 lg:top-1/2 lg:transform lg:-translate-y-1/2 rounded-xl shadow-lg shadow-black' src="https://img.freepik.com/foto-gratis/equipo-empresarios-apilando-manos_53876-20873.jpg?w=1380&t=st=1687822401~exp=1687823001~hmac=5f49a9eb3d0df422ee9458dfef553472d82d8eb75dbf73000c07467ec3923614" alt="" />            
+               <div className='w-9/12 mx-auto lg:w-10/12 2xl:w-7/12 lg:absolute -top-4 left-0 lg:-left-6 lg:top-1/2 lg:transform lg:-translate-y-1/2 rounded-xl shadow-lg shadow-black'>
+                  
+                  <Image className='rounded-xl' src="https://img.freepik.com/foto-gratis/equipo-empresarios-apilando-manos_53876-20873.jpg?w=1380&t=st=1687822401~exp=1687823001~hmac=5f49a9eb3d0df422ee9458dfef553472d82d8eb75dbf73000c07467ec3923614" alt="nosotros" layout='responsive' width={1} height={1} />
+                
+                </div>            
         </div>  
 
       </div>
