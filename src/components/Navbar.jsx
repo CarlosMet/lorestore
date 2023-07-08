@@ -145,10 +145,10 @@ const Navbar = () => {
                 <div className='absolute top-full w-full z-20 bg-white px-2'>
                     <div className=''>
                         {
-                            searchResults.map( (result) =>{
+                            searchResults.map( (result, index) =>{
                                 const trimmedTitle = result.title.replace(/\s/g, '')
                                 return(
-                                    <Link onClick={showResultsHandler} href={`/productos/${result.institucion}/${trimmedTitle}`}>
+                                    <Link key={index} onClick={showResultsHandler} href={`/productos/${result.institucion}/${trimmedTitle}`}>
                                         <div className='w-full overflow-hidden'>
                                             <div className="flex items-center w-full">
                                                 <div className='w-2/6 p-2'>

@@ -46,10 +46,10 @@ const Page = ({params}) => {
 
             <div className='w-full lg:w-4/5'>
                 <p className='text-sm text-center font-bold text-[#F57667] mb-5 lg:mb-1'>Nota: los precios de los productos pueden variar según la talla</p>
-                {products.map( (product) =>{
+                {products.map( (product, index) =>{
                     const trimmedTitle = product.title.replace(/\s/g, '')
                     return(
-                        <div className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
+                        <div key={index} className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
                             <div className='w-9/12 mx-auto lg:mx-0 lg:w-1/5 p-3'>
                                 <Image 
                                     src={product.imgSrc}

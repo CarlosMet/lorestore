@@ -46,6 +46,7 @@ const Slider = () => {
               <Image
                 src={sliderView}
                 fill
+                alt='slider-img'
               />
             </div>
             {/* <img className='w-full h-[64vh] slider-img' src={sliderView} alt="slider img" /> */}

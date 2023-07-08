@@ -109,6 +109,7 @@ export default function Page({params}) {
                 layout='responsive'
                 width={1}
                 height={1}
+                alt='s'
               />
               {/* <img src={filteredProduct[0].imgSrc} alt="" /> */}
             </div>
