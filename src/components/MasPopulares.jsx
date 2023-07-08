@@ -51,7 +51,7 @@ export default function MasPopulares() {
             <h2 className='title'>Más vendidos</h2>
             
         </div>
-        <div className='grid grid-cols-2 lg:grid-cols-3 place-items-center gap-2'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 place-items-center md:gap-2'>
             {products.map( (product) =>{
                 return(
                     <PopularCard

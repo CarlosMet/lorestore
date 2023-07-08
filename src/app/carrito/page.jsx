@@ -99,6 +99,7 @@ const Page = () => {
                     <div className='w-full'>
                       <Image 
                         src={'https://i.imgur.com/KQRFNxT.jpg'}
+                        layout='responsive'
                         width={100}
                         height={100}
                         alt='qr'
