@@ -42,8 +42,8 @@ export default function Page({params}) {
       )
     } )
     if(existingProduct.length !== 0){
-      console.log(existingProduct)
-      const updatedCart = cartProducts.map( (item) =>{
+      
+      const updatedCart = cartProducts.map( (item, index) =>{
         if (item.id === obj.id){
         return(
           {
@@ -52,7 +52,7 @@ export default function Page({params}) {
           }
         )}
         return item
-      } )
+      } ).map((item, index) => ({ ...item, key: index }));
       setCart(updatedCart)
     }else{
       addProduct(obj)
@@ -138,10 +138,10 @@ export default function Page({params}) {
               <div className='mt-5 lg:mt-8 xl:mt-10'>
                 <h3 className='font-bold tracking-tight'>Seleccionar talla</h3>
                 <div className='flex flex-wrap gap-2 mt-4'>
-                  {filteredProduct[0].sizes.map( (size) => {
+                  {filteredProduct[0].sizes.map( (size, index) => {
                     const bgColor = size === productSize ? 'black' : 'rgb(209, 211, 215)'
                     return (
-                      <button onClick={()=> selectProductPrice(size)} style={{backgroundColor:bgColor}} className='text-white py-1 px-3 font-extrabold'>{size}</button>
+                      <button key={index} onClick={()=> selectProductPrice(size)} style={{backgroundColor:bgColor}} className='text-white py-1 px-3 font-extrabold'>{size}</button>
                     )
                   } )}
                 </div>
