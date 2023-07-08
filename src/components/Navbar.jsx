@@ -110,7 +110,7 @@ const Navbar = () => {
                         <ul className='flex flex-col px-12 gap-4 tracking-tighter'>
                             <li onClick={showMenuHandler} className='border-b-2 '><Link href={'/'}>Inicio</Link></li>
                             <li onClick={showMenuHandler}><Link href={'/productos'}>Productos</Link></li>
-                            <li onClick={showMenuHandler}><Link href={'/contacto'}>Contacto</Link></li>
+                            <li onClick={showMenuHandler}><Link href={'/contact'}>Contacto</Link></li>
                             <li onClick={showMenuHandler}><Link href={'quienessomos'}>Quiénes somos</Link></li>
                         </ul>
                     </div>
