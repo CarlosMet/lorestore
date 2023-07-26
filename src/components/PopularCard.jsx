@@ -7,7 +7,7 @@ export default function PopularCard({title, price, imgSrc, institucion}) {
   
   return (
     <Link href={`/productos/${institucion}/${trimmedTitle}`}>
-      <div className='border border-gray-400 rounded-md flex items-center gap-1 md:gap-2 p-2 lg:p-4 xl:p-6 mb-2 lg:mb-8 w-[142px] md:w-48 lg:w-60 xl:w-72 2xl:w-80 h-32 lg:h-40'>
+      <div className='border border-gray-400 rounded-md flex items-center gap-1 md:gap-2 p-2 lg:p-4 xl:p-7 mb-2 lg:mb-8 w-[142px] md:w-48 lg:w-60 xl:w-72 2xl:w-80 h-32 lg:h-40 xl:h-52'>
           <div className='w-1/3 relative'>
               <div className='w-full h-12'>
                 <img src={imgSrc} alt="" className='w-full' />

@@ -111,7 +111,7 @@ const Navbar = () => {
                             <li onClick={showMenuHandler} className='border-b-2 '><Link href={'/'}>Inicio</Link></li>
                             <li onClick={showMenuHandler}><Link href={'/productos'}>Productos</Link></li>
                             <li onClick={showMenuHandler}><Link href={'/contact'}>Contacto</Link></li>
-                            <li onClick={showMenuHandler}><Link href={'quienessomos'}>Quiénes somos</Link></li>
+                            <li onClick={showMenuHandler}><Link href={'/quienessomos'}>Quiénes somos</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const Navbar = () => {
 
         <div className='grid place-items-center'>
             <Link href={'/'}>
-                <p className='text-xl md:text-3xl font-extrabold'>LORE<span className='text-[#F57667] font-black'>STORE.</span></p>
+                <p className='text-xl md:text-3xl font-extrabold'>Uniform<span className='text-[#F57667] font-black'>STORE.</span></p>
             </Link>
         </div>
 

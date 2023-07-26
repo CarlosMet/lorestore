@@ -3,6 +3,7 @@ import React from 'react'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {CiMail} from 'react-icons/ci'
 import {AiOutlineInstagram, AiOutlineFacebook, AiOutlineTwitter} from 'react-icons/ai'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       
         <div className='w-1/2'>
             <h2 className='title text-white'>LORE <span className='text-[#F57667]'>STORE.</span></h2>
-            <p className='lg:w-8/12 mt-4 text-justify'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, alias atque eligendi ipsa quas placeat praesentium volupt.</p>
+            <p className='lg:w-8/12 mt-4 text-justify'>Tienda de uniformes.</p>
             <div className='flex items-center mt-4 mb-2 gap-3 xl:gap-5'>
                 <BsFillTelephoneFill color='#F57667'></BsFillTelephoneFill>
                 <p>301 6457898</p>
@@ -32,8 +33,7 @@ const Footer = () => {
             <div className='w-1/3'>
                 <h3 className='title mb-4 text-white'>Información.</h3>
                 <ul>
-                    <li>Acerca</li>
-                    <li>Quiénes somos</li>
+                    <li><Link href={'/quienessomos'}>Quienes somos</Link></li>                    
                 </ul>
             </div>
             <div className='w-1/3'>

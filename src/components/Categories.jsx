@@ -20,7 +20,7 @@ const Categories = () => {
         },
         {
             id: 4,
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Black_belt.svg/2560px-Black_belt.svg.png",
+            logo: "https://i.imgur.com/S4rPKye.png",
             title: "Accesorios"
         },
         {
