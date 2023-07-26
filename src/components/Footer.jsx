@@ -11,7 +11,7 @@ const Footer = () => {
     <div className='bg-black text-gray-300 flex flex-col lg:flex-row pad pb-10 mt-4 lg:mt-24 xl:mt-32 2xl:mt-48'>
       
         <div className='w-1/2'>
-            <h2 className='title text-white'>LORE <span className='text-[#F57667]'>STORE.</span></h2>
+            <h2 className='title text-white'>UNIFORM <span className='text-[#F57667]'>STORE.</span></h2>
             <p className='lg:w-8/12 mt-4 text-justify'>Tienda de uniformes.</p>
             <div className='flex items-center mt-4 mb-2 gap-3 xl:gap-5'>
                 <BsFillTelephoneFill color='#F57667'></BsFillTelephoneFill>
@@ -26,8 +26,8 @@ const Footer = () => {
             <div className='w-1/3'>
                 <h3 className='title text-white mb-4'>Tienda.</h3>
                 <ul>                    
-                    <li>Contacto</li>
-                    <li>Productos</li>                    
+                    <Link href={'/contact'}><li>Contacto</li></Link>
+                    <Link href={'/products'}><li>Productos</li></Link>                    
                 </ul>
             </div>
             <div className='w-1/3'>
