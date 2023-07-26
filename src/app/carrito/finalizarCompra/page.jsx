@@ -37,6 +37,7 @@ export default function Page() {
 
     e.target.referencia.value = paymentRef
     e.target.pedido.value = JSON.stringify(cartProducts)
+    e.target.total.value = totalPrice + 10000
 
     const regexEmail =  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -111,6 +112,7 @@ export default function Page() {
           <input type="email" id='email' name='correo' className='py-1 lg:py-2 border border-black w-full' />          
           <input type="text" name='referencia' className='w-0' />
           <input type="text" name='pedido' className='w-0' />
+          <input type="text" name='total' className='w-0' />
           <div className='grid place-items-center my-4 lg:my-6'>
               <button type='submit' className='boton disabled:cursor-not-allowed'>Hacer pedido!</button>
           </div>

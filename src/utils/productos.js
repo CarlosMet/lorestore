@@ -53,7 +53,7 @@ const productos = [
         title: "Uniforme completo M Auxiliadora",
         imgSrc: "https://i.imgur.com/5A9HQJE.png",
         price: 205500,
-        description: "Incluye chauqeta, sudadera y camiseta",
+        description: "Incluye chaqueta, sudadera y camiseta",
         prices: [205500, 216500, 233500, 253500, 283500],
         sizes: [6,8,10,12,14,16, "XS", "S", "M", "L", "XL", "XXL"],
         institucion: "MariaAuxiliadora",

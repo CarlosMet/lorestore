@@ -13,6 +13,9 @@ font-family: 'Poppins', sans-serif; */
 .title{
   @apply font-black text-xl lg:text-2xl 2xl:text-3xl mt-6 xl:mt-16 2xl:mt-28 tracking-tighter;
 }
+.no-margin-title{
+  @apply font-black text-xl lg:text-2xl 2xl:text-3xl tracking-tighter;
+}
 .pad2{
   @apply px-6 lg:px-20 xl:px-40 2xl:px-56;
 }

@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center gap-3 xl:gap-5'>
                 <CiMail color='#F57667'></CiMail>
-                <p>lorestore@gmail.com</p>
+                <p>uniformstoresoporte@gmail.com</p>
             </div>
         </div>
         <div className='w-1/2 flex flex-col lg:flex-row justify-between'>

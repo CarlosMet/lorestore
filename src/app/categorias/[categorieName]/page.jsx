@@ -12,7 +12,8 @@ export default function Page({params}) {
     } )
   return (
     <div className='w-full px-4 lg:w-10/12 lg:mx-auto 2xl:w-9/12'>
-      {productsToShow.map( (product, index) =>{
+      { productsToShow && productsToShow.length > 0
+      ? productsToShow.map( (product, index) =>{
                     const trimmedTitle = product.title.replace(/\s/g, '')
                     return(
                         <div key={index} className='flex flex-col lg:flex-row justify-between lg:items-center mb-4 lg:mb-8 xl:mb-12 w-full border border-gray-300 lg:border-none rounded-lg'>
@@ -38,7 +39,26 @@ export default function Page({params}) {
                             </div>
                         </div>
                     )
-                } )}
+                } 
+                
+                )
+                : <div className='flex flex-col items-center mt-8 lg:mt-16 xl:mt-20'>
+                    <div className='w-36'>
+                        <Image 
+                            src='https://i.imgur.com/07KMWab.jpg'
+                            layout='responsive'
+                            width={1}
+                            height={1} 
+                            alt='empty'                               
+                        />
+                    </div>
+                    <div>
+                        <h3 className='no-margin-title text-center mb-4 mt-6 lg:mt-10 2xl:mt-16'>No se encontraron productos</h3>
+                        <p>Aún no tenemos productos para esta categoría, pero pronto los estaremos añadiendo</p>
+                    </div>
+
+                </div>
+            }
     </div>
   )
 }

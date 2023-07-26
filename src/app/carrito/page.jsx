@@ -77,6 +77,13 @@ const Page = () => {
                       <p><span className='text-lg font-bold tracking-tight'>Precio total :</span> {totalPrice}</p>
                     </div>
                   </div>
+                  <div className='pad'>
+                    <h3 className='title'>Instrucciones de pago</h3>
+                    <p className='mt-4 lg:mt-6'><span className='title text-[#F57667] mr-1'>1.</span> Cuando hayas seleccionado todos tus productos y estés seguro de realizar la compra da click en <span className='text-[#F57667] font-bold tracking-tight text-lg'>Finalizar compra.</span> </p>
+                    <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>2.</span>Completa el formulario con tus datos personales, selecciona si quieres retirar tu pedido en tienda o que te lo llevemos a casa y verifica que tu orden esté correcta.</p>
+                    <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>3.</span> Realiza el pago por transferencia Bancolombia o Nequi y relaciona el número de comprobante de pago en caso de transferencia bancolombia o referencia de pago en caso de Nequi en la casilla correspondiente. </p>
+                    <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>4.</span>Por último da click en <span className='text-[#F57667] font-bold text-lg tracking-tight mr-1'>Hacer pedido</span></p>
+                  </div>
               </div>
 
 
@@ -120,13 +127,7 @@ const Page = () => {
             </div>
 
               {/* contenido de abajo */}
-            <div className='pad'>
-                  <h3 className='title'>Instrucciones de pago</h3>
-                  <p className='mt-4 lg:mt-6'><span className='title text-[#F57667] mr-1'>1.</span> Cuando hayas seleccionado todos tus productos y estés seguro de realizar la compra da click en <span className='text-[#F57667] font-bold tracking-tight text-lg'>Finalizar compra.</span> </p>
-                  <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>2.</span>Completa el formulario con tus datos personales, selecciona si quieres retirar tu pedido en tienda o que te lo llevemos a casa y verifica que tu orden esté correcta.</p>
-                  <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>3.</span> Realiza el pago por transferencia Bancolombia o Nequi y relaciona el número de comprobante de pago en caso de transferencia bancolombia o referencia de pago en caso de Nequi en la casilla correspondiente. </p>
-                  <p className='mt-2 lg:mt-4'><span className='title text-[#F57667] mr-1'>4.</span>Por último da click en <span className='text-[#F57667] font-bold text-lg tracking-tight mr-1'>Hacer pedido</span></p>
-            </div>
+            
           </div>
         
         ) 
