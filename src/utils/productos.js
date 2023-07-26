@@ -174,7 +174,7 @@ const productos = [
     {
         id:11,
         title: "Tennis M Auxiliadora",
-        imgSrc: "https://i.imgur.com/GirYzu4.png",
+        imgSrc: "https://i.imgur.com/NYGRM7D.jpg",
         price: 80000,
         description: "Replicas triple a",
         prices: [80000, 80000, 80000],
@@ -183,6 +183,18 @@ const productos = [
         institucion: "MariaAuxiliadora",
         categoria: "Calzado"
     },    
+    {
+        id:25,
+        title: "Tennis negros M Auxiliadora",
+        imgSrc: "https://i.imgur.com/G6O32BN.jpg",
+        price: 80000,
+        description: "Replicas triple a",
+        prices: [80000, 80000, 80000],
+        sizes: [28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41],
+        prices:[80000],
+        institucion: "MariaAuxiliadora",
+        categoria: "Calzado"
+    },
     {
         id: 13,
         title: "Camiseta Adelaida",

@@ -9,8 +9,8 @@ export default function Page() {
       </div>
       <div className='flex flex-col-reverse lg:flex-row mt-4 lg:mt-8 xl:mt-12'>
         <div className='w-full lg:w-1/2 py-4 px-4 lg:px-14 lg:py-12 2xl:px-16 2xl:py-20'>
-            <h3 className='text-lg lg:text-xl font-semibold mb-4 lg:mb-6 2xl:mb-10'>Lore Store</h3>
-            <p className=' text-slate-800'>¡Bienvenido a Lorestore, tu destino familiar para uniformes escolares, accesorios y papelería! Somos una empresa comprometida en ofrecerte productos de calidad y una experiencia de compra excepcional. <br /><br />
+            <h3 className='text-lg lg:text-xl font-semibold mb-4 lg:mb-6 2xl:mb-10'>Uniform Store</h3>
+            <p className=' text-slate-800'>¡Bienvenido a Uniform store, tu destino familiar para uniformes escolares, accesorios y papelería! Somos una empresa comprometida en ofrecerte productos de calidad y una experiencia de compra excepcional. <br /><br />
 
 En Lorestore, entendemos la importancia de los uniformes escolares como una parte esencial de la identidad y el espíritu de equipo en las instituciones educativas. Nos enorgullece proporcionar una amplia variedad de uniformes escolares de alta calidad para estudiantes de todas las edades. Ya sea que necesites uniformes para preescolar, primaria o secundaria, tenemos opciones que se adaptan a todos los estilos y tallas. Nuestra extensa selección incluye camisas, pantalones, faldas, suéteres y mucho más, todo confeccionado con materiales duraderos y cómodos para garantizar la satisfacción de nuestros clientes. </p>
         </div>
